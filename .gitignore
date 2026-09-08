@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.netlify/
+
+# Generated single-file bundle for sharing — rebuilt from public/, not source.
+Dar-Al-Haiba-Website.html

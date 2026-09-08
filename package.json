@@ -1,0 +1,12 @@
+{
+  "name": "dar-al-haiba",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Dar Al Haiba — traditional Arabic garments, Jumeirah Centre, Dubai",
+  "scripts": {
+    "dev": "npx serve . -l 8000",
+    "start": "npx serve . -l 8000"
+  },
+  "author": "Dar Al Haiba",
+  "license": "UNLICENSED"
+}

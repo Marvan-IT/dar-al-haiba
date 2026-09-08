@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Device test — Dar Al Haiba</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #1b1a17; color: #cfc6b4;
+         font: 12px/1.5 ui-monospace, SFMono-Regular, monospace; padding: 20px; }
+  h1 { font-size: 13px; letter-spacing: .18em; text-transform: uppercase;
+       color: #d8b860; font-weight: 500; margin: 0 0 4px; }
+  p.note { margin: 0 0 20px; color: #8a8377; max-width: 78ch; }
+  .row { display: flex; gap: 20px; align-items: flex-start; overflow-x: auto; padding-bottom: 20px; }
+  figure { margin: 0; flex: 0 0 auto; }
+  figcaption { padding: 0 0 8px; letter-spacing: .1em; color: #a89f8d; }
+  .phone { border: 10px solid #0d0c0a; border-radius: 34px; overflow: hidden;
+           box-shadow: 0 24px 50px -20px rgba(0,0,0,.8); background: #fff; }
+  .desk { border: 8px solid #0d0c0a; border-radius: 10px; overflow: hidden;
+          box-shadow: 0 24px 50px -20px rgba(0,0,0,.8); background: #fff; }
+  iframe { display: block; border: 0; }
+</style>
+</head>
+<body>
+<h1>Every screen size</h1>
+<p class="note">Live and scrollable — drag inside a frame to scroll it, tap العربية to switch language. Each one is a real browser at that exact width, so the site responds exactly as it would on the device.</p>
+<div class="row">
+  <figure>
+    <figcaption>iPhone SE — 320</figcaption>
+    <div class="phone"><iframe src="public/index.html" width="320" height="920"></iframe></div>
+  </figure>
+  <figure>
+    <figcaption>Android — 360</figcaption>
+    <div class="phone"><iframe src="public/index.html" width="360" height="920"></iframe></div>
+  </figure>
+  <figure>
+    <figcaption>iPhone 15 — 390</figcaption>
+    <div class="phone"><iframe src="public/index.html" width="390" height="920"></iframe></div>
+  </figure>
+  <figure>
+    <figcaption>Pro Max — 430</figcaption>
+    <div class="phone"><iframe src="public/index.html" width="430" height="920"></iframe></div>
+  </figure>
+  <figure>
+    <figcaption>Small tablet — 500</figcaption>
+    <div class="desk"><iframe src="public/index.html" width="500" height="920"></iframe></div>
+  </figure>
+  <figure>
+    <figcaption>iPad portrait — 768</figcaption>
+    <div class="desk"><iframe src="public/index.html" width="768" height="920"></iframe></div>
+  </figure>
+  <figure>
+    <figcaption>iPad landscape — 1024</figcaption>
+    <div class="desk"><iframe src="public/index.html" width="1024" height="920"></iframe></div>
+  </figure>
+  <figure>
+    <figcaption>Laptop — 1440</figcaption>
+    <div class="desk"><iframe src="public/index.html" width="1440" height="920"></iframe></div>
+  </figure>
+</div>
+</body>
+</html>
